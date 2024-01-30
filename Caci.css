@@ -1,5 +1,15 @@
+:root {
+    --thisPurpleGradient: linear-gradient(#E844FF,#8739FF);
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
+
+.testSquare{
+    background: var(--thisPurpleGradient);
+    height: 50vh;
+    width: 100vw;
+}
