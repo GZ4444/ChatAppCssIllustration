@@ -44,15 +44,24 @@ body{
     grid-row: 1;
     border-radius: 20px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);  /*tu poprosiłem gpt o wygenerowanie cienia, sam nie potrafiłem wymierzyć */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto, auto, auto, auto, auto;
 }
 
-h1{
+.chatHeader{
+    grid-row: 1;
+    height: 10%;
+    background: var(--thisPurpleGradient);
+}
+
+.mainH1{
     font-size: 4em;
     text-align: center;
     grid-row: 2;
 }
 
-p{
+.mainP{
     font-size: 1.6em;
     text-align: center;
     grid-row: 3;
