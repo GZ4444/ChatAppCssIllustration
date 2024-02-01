@@ -25,23 +25,25 @@ body{
 .upperPurpleThing{
     height: 60vh;
     width: 60%;
-    background: var(--thisPurpleGradient);
-    +border-radius: 0px 0px 255px;
     position: relative;
+    background: var(--thisPurpleGradient);
+    border-radius: 0px 0px 255px;
     z-index: 0;
     grid-column: 1;
     grid-row: 1;
 }
 
 .miniPhone{
-    position: relative;
     width: 247px;
     height: 505px;
+    position: relative;
     background-color: white;
+    margin: 40px auto 0;
     z-index: 1;
     grid-column: 1;
     grid-row: 1;
     border-radius: 20px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);  /*tu poprosiłem gpt o wygenerowanie cienia, sam nie potrafiłem wymierzyć */
 }
 
 h1{
