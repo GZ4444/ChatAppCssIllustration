@@ -54,7 +54,8 @@ body{
 .chatHeader{
     grid-row: 1;
     display: grid;
-    height: 75px;
+    height: 60px;
+    padding-bottom: 5px;
     background: linear-gradient(to right,#8739FF,#E844FF);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -80,8 +81,8 @@ body{
 }
 
 .profile-pic {
-    width: 40px; 
-    height: 40px; 
+    width: 30px; 
+    height: 30px; 
     border-radius: 50%;
     border: 2px solid white; 
     top: 10px; 
@@ -105,8 +106,27 @@ i{
 .mainChatContent{
     display: flex;
     flex-direction: column;
+    gap:10px;
 }
 
+.firstUserTextCloud{
+    background-color: #EEE5F4;
+    color: #9341C8;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+.secondUserTextCloud{
+    background-color: white;
+    box-shadow: 2px;
+    color: #6E5D7E;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: flex-end;
+}
 
 .mainH1{
     font-size: 4em;
