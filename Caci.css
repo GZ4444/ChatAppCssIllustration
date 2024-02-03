@@ -53,9 +53,7 @@ body{
 
 .chatHeader{
     grid-row: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
     height: 75px;
     background: linear-gradient(to right,#8739FF,#E844FF);
     border-top-left-radius: 20px;
@@ -66,11 +64,16 @@ body{
 }
 
 .whiteMark{
-    height: 40px;
+    height: 20px;
     width: 150px;
     background-color: white;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
+}
+
+.userData{
+    display: flex;
+    align-items: center;
 }
 
 .profile-pic {
