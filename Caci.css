@@ -6,6 +6,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -51,10 +52,12 @@ body{
 }
 
 .chatHeader{
-    display: flex;
     grid-row: 1;
-    height: 12%;
-    background: var(--thisPurpleGradient);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75px;
+    background: linear-gradient(to right,#8739FF,#E844FF);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 5px;
@@ -63,13 +66,35 @@ body{
 }
 
 .whiteMark{
-    height: 20px;
+    height: 40px;
     width: 150px;
     background-color: white;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
 }
 
+.profile-pic {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+    border: 2px solid white; 
+    top: 10px; 
+    left: 10px; 
+}
+
+i{
+    color:white;
+}
+
+.userNameAndStatus{
+    color: white;
+}
+
+.userNameAndStatus h2{
+    font-weight: normal;
+    font-size: 10px;
+    color: #D99EFF;
+}
 
 .mainH1{
     font-size: 4em;
