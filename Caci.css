@@ -61,6 +61,7 @@ body{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     justify-content: center;
+    
 }
 
 .whiteMark{
@@ -69,11 +70,13 @@ body{
     background-color: white;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
+    margin: 0 auto;
 }
 
 .userData{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .profile-pic {
@@ -98,6 +101,12 @@ i{
     font-size: 10px;
     color: #D99EFF;
 }
+
+.mainChatContent{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .mainH1{
     font-size: 4em;
