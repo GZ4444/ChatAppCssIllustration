@@ -183,7 +183,9 @@ i{
 
 .messageSender{
     display: flex;
-    height: 100px;
+    height: 40px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .messageSender p{
@@ -195,7 +197,12 @@ i{
     width: 24px;
     height: 24px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .mainH1{
     font-size: 4em;
