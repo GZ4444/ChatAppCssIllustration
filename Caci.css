@@ -118,6 +118,18 @@ i{
     align-self: flex-start;
 }
 
+.imgGallery{
+    display: flex;
+    align-self: flex-end;
+    gap: 10px;
+}
+
+.imgFromGallery{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
 .secondUserTextCloud{
     background-color: white;
     box-shadow: 2px;
