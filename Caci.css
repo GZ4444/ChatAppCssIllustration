@@ -1,5 +1,5 @@
 :root {
-    --thisPurpleGradient: linear-gradient(#E844FF,#8739FF);
+    --thisPurpleGradient: linear-gradient(#361e39,#8739FF);
     --thisGray:#A39DA9;
 }
 
@@ -23,11 +23,11 @@ body{
 }
 
 .upperPurpleThing{
-    height: 60vh;
-    width: 60%;
+    height: 70vh;
+    width: 50%;
     position: relative;
     background: var(--thisPurpleGradient);
-    border-radius: 0px 0px 255px;
+    border-radius: 0px 0px 600px 0px;
     z-index: 0;
     grid-column: 1;
     grid-row: 1;
