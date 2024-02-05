@@ -17,9 +17,8 @@ body{
 main{
     height: 100vh;
     width: 100vw;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto, auto, auto;
+    display: flex;
+
 }
 
 .upperPurpleThing{
@@ -29,8 +28,7 @@ main{
     background: var(--thisPurpleGradient);
     border-radius: 0px 0px 600px 0px;
     z-index: 0;
-    grid-column: 1;
-    grid-row: 1;
+
 }
 
 .miniPhone{
@@ -40,21 +38,17 @@ main{
     background-color: white;
     margin: 40px auto 0;
     z-index: 1;
-    grid-column: 1;
-    grid-row: 1;
     border-radius: 20px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);  
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto, auto, auto, auto, auto;
+    display: flex;
     padding: 10px;
 }
 
-.chatHeader{
-    grid-row: 1;
-    display: grid;
+header{
+    display: flex;
+    flex-direction: column;
     height: 60px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     background: linear-gradient(to right,#8739FF,#E844FF);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -68,8 +62,8 @@ main{
     height: 20px;
     width: 150px;
     background-color: white;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
     margin: 0 auto;
 }
 
@@ -151,7 +145,6 @@ i{
     display: flex;
     align-items: center;
     gap: 10px;
-   
 }
 
 .checkBox{
@@ -179,7 +172,6 @@ i{
 .priceCloudDollarText{
     color: white;
     font-weight: bolder;
-    
 }
 
 .messageSender{
@@ -223,16 +215,24 @@ i{
 .mainH1{
     font-size: 4em;
     text-align: center;
-    grid-row: 2;
 }
 
 .mainP{
     font-size: 1.6em;
     text-align: center;
-    grid-row: 3;
     color: var(--thisGray);
     width: 80%;
     line-height: 28px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    main{
+        flex-direction: column;
+    }
+    
+    .miniPhone{
+        flex-direction: column;
+    }
 }
