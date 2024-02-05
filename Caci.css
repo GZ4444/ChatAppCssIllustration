@@ -180,6 +180,7 @@ i{
 .priceCloudDollarText{
     color: white;
     font-weight: bolder;
+    
 }
 
 .messageSender{
@@ -193,6 +194,7 @@ i{
 
 .messageSender p{
     color: #C5C9CC;
+    padding: 10px;
 }
 
 .messageSender button{
@@ -203,6 +205,8 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 3px;
+    padding-top: 1px;
 }
 
 .arrow {
