@@ -185,7 +185,9 @@ i{
     display: flex;
     height: 40px;
     align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
+    width: 100%;
 }
 
 .messageSender p{
@@ -202,7 +204,17 @@ i{
     align-items: center;
 }
 
-
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
 
 .mainH1{
     font-size: 4em;
