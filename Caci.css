@@ -70,7 +70,8 @@ header{
 .userData{
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
+    
 }
 
 .profile-pic {
@@ -80,6 +81,7 @@ header{
     border: 2px solid white; 
     top: 10px; 
     left: 10px; 
+    
 }
 
 i{
@@ -88,6 +90,7 @@ i{
 
 .userNameAndStatus{
     color: white;
+    align-self: center;
 }
 
 .userNameAndStatus h2{
